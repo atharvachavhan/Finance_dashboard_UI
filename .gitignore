@@ -1,5 +1,33 @@
+# Node
+node_modules/
+
+# Build / bundler
+dist/
+build/
+.vite/
+dist-ssr/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# IDEs / editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +35,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# TypeScript
+*.tsbuildinfo
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Caches
+.cache/
+
+# Coverage
+coverage/
+
+# Misc
+.sass-cache/
+*.tgz
+.local/
+
+# Lock files (optional)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
